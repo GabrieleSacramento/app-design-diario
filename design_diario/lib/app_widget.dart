@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'home/home_page.dart';
+
 class DesignDiarioApp extends StatelessWidget {
   const DesignDiarioApp({super.key});
   @override
@@ -18,6 +20,7 @@ class DesignDiarioApp extends StatelessWidget {
         ),
         routes: {
           "/": (context) => RegisterPage(),
+          "/homePage": (context) => HomePage(),
         },
       ),
     );

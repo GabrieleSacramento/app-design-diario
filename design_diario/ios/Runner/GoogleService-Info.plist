@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>128063007485-gll8ufkk9morva2tb6o928k7kvvgnoh5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.128063007485-gll8ufkk9morva2tb6o928k7kvvgnoh5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZeJ00P6VRydqWnhVzhCxfnyiAxZE1QL8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>128063007485</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.designDiario</string>
+	<key>PROJECT_ID</key>
+	<string>design-diario</string>
+	<key>STORAGE_BUCKET</key>
+	<string>design-diario.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:128063007485:ios:746bfaa865cacc1867ac94</string>
+</dict>
+</plist>
