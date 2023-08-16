@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../theme/color_schemes.g.dart';
 import 'article_card_widget.dart';
 
 class ArticleCarousel extends StatefulWidget {
@@ -39,7 +40,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                 padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Theme.of(context).colorScheme.primary,
+                  color: lightColorScheme.onPrimary,
                 ),
               ),
             ),
@@ -93,7 +94,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                 padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Theme.of(context).colorScheme.primary,
+                  color: lightColorScheme.onPrimary,
                 ),
               ),
             ),
@@ -147,7 +148,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                 padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Theme.of(context).colorScheme.primary,
+                  color: lightColorScheme.onPrimary,
                 ),
               ),
             ),

@@ -1,3 +1,4 @@
+import 'package:design_diario/theme/color_schemes.g.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -137,7 +138,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               width: double.maxFinite,
               height: 300,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.primary,
+                color: lightColorScheme.primary,
                 borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(111),
                 ),
@@ -169,7 +170,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   width: double.maxFinite,
                   height: 450,
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.primary,
+                    color: lightColorScheme.primary,
                     borderRadius: const BorderRadius.only(
                       bottomRight: Radius.circular(111),
                     ),
@@ -178,7 +179,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 Container(
                   height: 750,
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.tertiary,
+                    color: lightColorScheme.primary,
                     borderRadius: const BorderRadius.only(
                       bottomLeft: Radius.circular(111),
                     ),
@@ -207,7 +208,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                               padding: const EdgeInsets.all(16),
                               child: Icon(
                                 Icons.favorite_border,
-                                color: Theme.of(context).colorScheme.primary,
+                                color: lightColorScheme.onPrimary,
                               ),
                             ),
                           ),
@@ -262,7 +263,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                               padding: const EdgeInsets.all(16),
                               child: Icon(
                                 Icons.favorite_border,
-                                color: Theme.of(context).colorScheme.primary,
+                                color: lightColorScheme.onPrimary,
                               ),
                             ),
                           ),
@@ -343,7 +344,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                     padding: const EdgeInsets.all(16),
                     child: Icon(
                       Icons.favorite_border,
-                      color: Theme.of(context).colorScheme.primary,
+                      color: lightColorScheme.onPrimary,
                     ),
                   ),
                 ),
@@ -397,7 +398,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                     padding: const EdgeInsets.all(16),
                     child: Icon(
                       Icons.favorite_border,
-                      color: Theme.of(context).colorScheme.primary,
+                      color: lightColorScheme.onPrimary,
                     ),
                   ),
                 ),
