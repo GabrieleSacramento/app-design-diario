@@ -14,7 +14,7 @@ class UserCardWidget extends StatelessWidget {
       height: 222.h,
       width: 165.w,
       decoration: const BoxDecoration(
-        color: Colors.blueGrey,
+        color: Colors.amberAccent,
         borderRadius: BorderRadius.all(
           Radius.circular(12),
         ),

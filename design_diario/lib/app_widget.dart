@@ -17,11 +17,12 @@ class DesignDiarioApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromRGBO(23, 125, 139, 1),
-            primary: const Color.fromRGBO(120, 166, 172, 1),
-            secondary: const Color.fromRGBO(23, 125, 139, 1),
-            tertiary: Colors.white,
+          colorScheme: ColorScheme.fromSwatch(
+            primarySwatch: Colors.purple,
+            // seedColor: const Color.fromRGBO(23, 125, 139, 1),
+            // primaryS: const Color.fromRGBO(120, 166, 172, 1),
+            // secondary: const Color.fromRGBO(23, 125, 139, 1),
+            // tertiary: Colors.white,
             brightness: Brightness.light,
           ),
         ),
