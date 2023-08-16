@@ -3,5 +3,26 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "name": "design_diario",
+            "cwd": "design_diario",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "design_diario (profile mode)",
+            "cwd": "design_diario",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "design_diario (release mode)",
+            "cwd": "design_diario",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
 }
