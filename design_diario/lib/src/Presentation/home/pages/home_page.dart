@@ -75,9 +75,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color.fromRGBO(186, 242, 235, 1),
+        // backgroundColor: const Color.fromRGBO(186, 242, 235, 1),
         elevation: 0,
         titleSpacing: 28,
         title: const Row(
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               child: CircleAvatar(
                 backgroundImage: NetworkImage(
                     'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80'),
-                backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+                // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
               ),
             ),
             SizedBox(
@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             Text(
               'Olá, Luciana',
               style: TextStyle(
-                color: Color.fromRGBO(83, 78, 78, 1),
+                // color: Color.fromRGBO(83, 78, 78, 1),
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
               ),
@@ -108,24 +108,24 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             Icon(
               Icons.arrow_forward_ios_sharp,
               size: 8,
-              color: Color.fromRGBO(83, 78, 78, 1),
+              // color: Color.fromRGBO(83, 78, 78, 1),
             ),
           ],
         ),
         actions: const [
           Icon(
             Icons.menu,
-            color: Color.fromRGBO(83, 78, 78, 1),
+            // color: Color.fromRGBO(83, 78, 78, 1),
           ),
           SizedBox(
             width: 28,
           ),
         ],
         bottom: TabBar(
-          indicatorColor: const Color.fromRGBO(245, 190, 35, 1),
+          // indicatorColor: const Color.fromRGBO(245, 190, 35, 1),
           indicatorSize: TabBarIndicatorSize.label,
-          labelColor: const Color.fromRGBO(83, 78, 78, 1),
-          unselectedLabelColor: const Color.fromRGBO(83, 78, 78, 0.4),
+          // labelColor: const Color.fromRGBO(83, 78, 78, 1),
+          // unselectedLabelColor: const Color.fromRGBO(83, 78, 78, 0.4),
           controller: _tabController,
           tabs: _tabs,
         ),
@@ -136,9 +136,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             Container(
               width: double.maxFinite,
               height: 300,
-              decoration: const BoxDecoration(
-                color: Color.fromRGBO(186, 242, 235, 1),
-                borderRadius: BorderRadius.only(
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.primary,
+                borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(111),
                 ),
               ),
@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 child: Text(
                   DesignDiarioConstants.popular,
                   style: TextStyle(
-                    color: const Color.fromRGBO(51, 51, 51, 1),
+                    // color: const Color.fromRGBO(51, 51, 51, 1),
                     fontWeight: FontWeight.w700,
                     fontStyle: FontStyle.normal,
                     fontSize: 22.sp,
@@ -168,18 +168,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   margin: EdgeInsets.only(top: 600.h),
                   width: double.maxFinite,
                   height: 450,
-                  decoration: const BoxDecoration(
-                    color: Color.fromRGBO(186, 242, 235, 1),
-                    borderRadius: BorderRadius.only(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.primary,
+                    borderRadius: const BorderRadius.only(
                       bottomRight: Radius.circular(111),
                     ),
                   ),
                 ),
                 Container(
                   height: 750,
-                  decoration: const BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.only(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.tertiary,
+                    borderRadius: const BorderRadius.only(
                       bottomLeft: Radius.circular(111),
                     ),
                   ),
@@ -196,18 +196,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                               ),
                               fit: BoxFit.fitWidth,
                             ),
-                            color: Colors.amberAccent,
+                            // color: Colors.amberAccent,
                             borderRadius: BorderRadius.all(
                               Radius.circular(12),
                             ),
                           ),
-                          child: const Align(
+                          child: Align(
                             alignment: Alignment.bottomRight,
                             child: Padding(
-                              padding: EdgeInsets.all(16),
+                              padding: const EdgeInsets.all(16),
                               child: Icon(
                                 Icons.favorite_border,
-                                color: Color.fromRGBO(186, 242, 235, 1),
+                                color: Theme.of(context).colorScheme.primary,
                               ),
                             ),
                           ),
@@ -218,13 +218,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                           child: CircleAvatar(
                             backgroundImage:
                                 AssetImage('assets/images/profile1.jpg'),
-                            backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+                            // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
                           ),
                         ),
                         articleUserName: Text(
                           'Antonio Caldas',
                           style: TextStyle(
-                            color: const Color.fromRGBO(83, 78, 78, 1),
+                            // color: const Color.fromRGBO(83, 78, 78, 1),
                             fontWeight: FontWeight.w400,
                             fontStyle: FontStyle.normal,
                             fontSize: 12.sp,
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         articleCardTitle: Text(
                           'Uma lista abrangente (e honesta) de clichês de UX',
                           style: TextStyle(
-                            color: const Color.fromRGBO(83, 78, 78, 1),
+                            // color: const Color.fromRGBO(83, 78, 78, 1),
                             fontWeight: FontWeight.w700,
                             fontStyle: FontStyle.normal,
                             fontSize: 16.sp,
@@ -251,18 +251,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                   'assets/images/article2.jpg',
                                 ),
                                 fit: BoxFit.fill),
-                            color: Colors.amberAccent,
+                            // color: Colors.amberAccent,
                             borderRadius: BorderRadius.all(
                               Radius.circular(12),
                             ),
                           ),
-                          child: const Align(
+                          child: Align(
                             alignment: Alignment.bottomRight,
                             child: Padding(
-                              padding: EdgeInsets.all(16),
+                              padding: const EdgeInsets.all(16),
                               child: Icon(
                                 Icons.favorite_border,
-                                color: Color.fromRGBO(186, 242, 235, 1),
+                                color: Theme.of(context).colorScheme.primary,
                               ),
                             ),
                           ),
@@ -279,7 +279,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         articleUserName: Text(
                           'Tayná Ferreira',
                           style: TextStyle(
-                            color: const Color.fromRGBO(83, 78, 78, 1),
+                            // color: const Color.fromRGBO(83, 78, 78, 1),
                             fontWeight: FontWeight.w400,
                             fontStyle: FontStyle.normal,
                             fontSize: 12.sp,
@@ -289,7 +289,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         articleCardTitle: Text(
                           'Uma lista abrangente (e honesta) de clichês de UX',
                           style: TextStyle(
-                            color: const Color.fromRGBO(83, 78, 78, 1),
+                            // color: const Color.fromRGBO(83, 78, 78, 1),
                             fontWeight: FontWeight.w700,
                             fontStyle: FontStyle.normal,
                             fontSize: 16.sp,
@@ -303,7 +303,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                           child: Text(
                             DesignDiarioConstants.people,
                             style: TextStyle(
-                              color: const Color.fromRGBO(51, 51, 51, 1),
+                              // color: const Color.fromRGBO(51, 51, 51, 1),
                               fontWeight: FontWeight.w700,
                               fontStyle: FontStyle.normal,
                               fontSize: 22.sp,
@@ -315,7 +315,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 680),
+                  padding: const EdgeInsets.only(top: 710),
                   child: SizedBox(
                     child: widget.userCardCarousel,
                   ),
@@ -332,18 +332,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         'assets/images/article3.jpg',
                       ),
                       fit: BoxFit.fill),
-                  color: Colors.amberAccent,
+                  // color: Colors.amberAccent,
                   borderRadius: BorderRadius.all(
                     Radius.circular(12),
                   ),
                 ),
-                child: const Align(
+                child: Align(
                   alignment: Alignment.bottomRight,
                   child: Padding(
-                    padding: EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16),
                     child: Icon(
                       Icons.favorite_border,
-                      color: Color.fromRGBO(186, 242, 235, 1),
+                      color: Theme.of(context).colorScheme.primary,
                     ),
                   ),
                 ),
@@ -353,13 +353,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 height: 24,
                 child: CircleAvatar(
                   backgroundImage: AssetImage('assets/images/profile2.jpg'),
-                  backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+                  // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
                 ),
               ),
               articleUserName: Text(
                 'Alex Magalhães',
                 style: TextStyle(
-                  color: const Color.fromRGBO(83, 78, 78, 1),
+                  // color: const Color.fromRGBO(83, 78, 78, 1),
                   fontWeight: FontWeight.w400,
                   fontStyle: FontStyle.normal,
                   fontSize: 12.sp,
@@ -369,7 +369,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               articleCardTitle: Text(
                 'Uma lista abrangente (e honesta) de clichês de UX',
                 style: TextStyle(
-                  color: const Color.fromRGBO(83, 78, 78, 1),
+                  // color: const Color.fromRGBO(83, 78, 78, 1),
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.normal,
                   fontSize: 16.sp,
@@ -386,18 +386,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         'assets/images/article4.jpg',
                       ),
                       fit: BoxFit.fill),
-                  color: Colors.amberAccent,
+                  // color: Colors.amberAccent,
                   borderRadius: BorderRadius.all(
                     Radius.circular(12),
                   ),
                 ),
-                child: const Align(
+                child: Align(
                   alignment: Alignment.bottomRight,
                   child: Padding(
-                    padding: EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16),
                     child: Icon(
                       Icons.favorite_border,
-                      color: Color.fromRGBO(186, 242, 235, 1),
+                      color: Theme.of(context).colorScheme.primary,
                     ),
                   ),
                 ),
@@ -407,13 +407,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 height: 24,
                 child: CircleAvatar(
                   backgroundImage: AssetImage('assets/images/profile3.jpg'),
-                  backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+                  // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
                 ),
               ),
               articleUserName: Text(
                 'Alexadre Brito',
                 style: TextStyle(
-                  color: const Color.fromRGBO(83, 78, 78, 1),
+                  // color: const Color.fromRGBO(83, 78, 78, 1),
                   fontWeight: FontWeight.w400,
                   fontStyle: FontStyle.normal,
                   fontSize: 12.sp,
@@ -423,7 +423,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               articleCardTitle: Text(
                 'Uma lista abrangente (e honesta) de clichês de UX',
                 style: TextStyle(
-                  color: const Color.fromRGBO(83, 78, 78, 1),
+                  // color: const Color.fromRGBO(83, 78, 78, 1),
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.normal,
                   fontSize: 16.sp,

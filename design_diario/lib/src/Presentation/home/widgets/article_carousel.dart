@@ -28,18 +28,18 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                     'assets/images/article6.jpg',
                   ),
                   fit: BoxFit.fitWidth),
-              color: Colors.amberAccent,
+              // color: Colors.amberAccent,
               borderRadius: BorderRadius.all(
                 Radius.circular(12),
               ),
             ),
-            child: const Align(
+            child: Align(
               alignment: Alignment.bottomRight,
               child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Color.fromRGBO(186, 242, 235, 1),
+                  color: Theme.of(context).colorScheme.primary,
                 ),
               ),
             ),
@@ -49,13 +49,13 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
             height: 24,
             child: CircleAvatar(
               backgroundImage: AssetImage('assets/images/profile4.jpg'),
-              backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+              // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
             ),
           ),
           articleUserName: Text(
             'Caique Fonseca',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w400,
               fontStyle: FontStyle.normal,
               fontSize: 12.sp,
@@ -65,7 +65,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
           articleCardTitle: Text(
             'Uma lista abrangente (e honesta) de clichês de UX',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w700,
               fontStyle: FontStyle.normal,
               fontSize: 16.sp,
@@ -82,18 +82,18 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                     'assets/images/article5.jpg',
                   ),
                   fit: BoxFit.fitWidth),
-              color: Colors.amberAccent,
+              // color: Colors.amberAccent,
               borderRadius: BorderRadius.all(
                 Radius.circular(12),
               ),
             ),
-            child: const Align(
+            child: Align(
               alignment: Alignment.bottomRight,
               child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Color.fromRGBO(186, 242, 235, 1),
+                  color: Theme.of(context).colorScheme.primary,
                 ),
               ),
             ),
@@ -103,13 +103,13 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
             height: 24,
             child: CircleAvatar(
               backgroundImage: AssetImage('assets/images/profile1.jpg'),
-              backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+              // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
             ),
           ),
           articleUserName: Text(
             'Antonio Caldas',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w400,
               fontStyle: FontStyle.normal,
               fontSize: 12.sp,
@@ -119,7 +119,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
           articleCardTitle: Text(
             'Uma lista abrangente (e honesta) de clichês de UX',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w700,
               fontStyle: FontStyle.normal,
               fontSize: 16.sp,
@@ -136,18 +136,18 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
                     'assets/images/article4.jpg',
                   ),
                   fit: BoxFit.fitWidth),
-              color: Colors.amberAccent,
+              // color: Colors.amberAccent,
               borderRadius: BorderRadius.all(
                 Radius.circular(12),
               ),
             ),
-            child: const Align(
+            child: Align(
               alignment: Alignment.bottomRight,
               child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: Icon(
                   Icons.favorite_border,
-                  color: Color.fromRGBO(186, 242, 235, 1),
+                  color: Theme.of(context).colorScheme.primary,
                 ),
               ),
             ),
@@ -158,13 +158,13 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
             height: 24,
             child: CircleAvatar(
               backgroundImage: AssetImage('assets/images/profile5.jpg'),
-              backgroundColor: Color.fromRGBO(245, 245, 245, 1),
+              // backgroundColor: Color.fromRGBO(245, 245, 245, 1),
             ),
           ),
           articleUserName: Text(
             'Tayná Ferreira',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w400,
               fontStyle: FontStyle.normal,
               fontSize: 12.sp,
@@ -173,7 +173,7 @@ class _ArticleCarouselState extends State<ArticleCarousel> {
           articleCardTitle: Text(
             'Uma lista abrangente (e honesta) de clichês de UX',
             style: TextStyle(
-              color: const Color.fromRGBO(83, 78, 78, 1),
+              // color: const Color.fromRGBO(83, 78, 78, 1),
               fontWeight: FontWeight.w700,
               fontStyle: FontStyle.normal,
               fontSize: 16.sp,

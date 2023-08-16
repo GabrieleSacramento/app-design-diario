@@ -16,7 +16,14 @@ class DesignDiarioApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          useMaterial3: true,
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromRGBO(23, 125, 139, 1),
+            primary: const Color.fromRGBO(120, 166, 172, 1),
+            secondary: const Color.fromRGBO(23, 125, 139, 1),
+            tertiary: Colors.white,
+            brightness: Brightness.light,
+          ),
         ),
         routes: {
           "/": (context) => const HomePage(
