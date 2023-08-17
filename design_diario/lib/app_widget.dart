@@ -1,4 +1,5 @@
 import 'package:design_diario/src/Presentation/home/pages/home_page.dart';
+import 'package:design_diario/src/Presentation/home/pages/material_components.dart';
 import 'package:design_diario/src/Presentation/home/widgets/article_carousel.dart';
 import 'package:design_diario/src/Presentation/home/widgets/user_card_carousel.dart';
 import 'package:flutter/material.dart';
@@ -26,10 +27,11 @@ class DesignDiarioApp extends StatelessWidget {
           ),
         ),
         routes: {
-          "/": (context) => const HomePage(
-                articleCarousel: ArticleCarousel(),
-                userCardCarousel: UserCardCarousel(),
-              ),
+          "/": (context) => const MaterialComponents()
+          // HomePage(
+          //       articleCarousel: ArticleCarousel(),
+          //       userCardCarousel: UserCardCarousel(),
+          //     ),
           // BlocProvider(
           //       create: (context) => setup.get<UserAuthCubit>(),
           //       child: LoginPage(userAuthCubit: setup.get<UserAuthCubit>()),
