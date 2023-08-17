@@ -18,7 +18,7 @@ class DesignDiarioApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: lightColorScheme,
+          colorScheme: darkColorScheme,
         ),
         routes: {
           "/": (context) => const HomePage(
