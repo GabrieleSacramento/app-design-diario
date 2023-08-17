@@ -19,11 +19,10 @@ class DesignDiarioApp extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSwatch(
             primarySwatch: Colors.purple,
-            // seedColor: const Color.fromRGBO(23, 125, 139, 1),
-            // primaryS: const Color.fromRGBO(120, 166, 172, 1),
-            // secondary: const Color.fromRGBO(23, 125, 139, 1),
-            // tertiary: Colors.white,
             brightness: Brightness.light,
+            accentColor: Colors.blue,
+            cardColor: Colors.amber,
+            backgroundColor: Colors.white,
           ),
         ),
         routes: {
